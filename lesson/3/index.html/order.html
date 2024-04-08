@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Заказать</title>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="/">Главная</a></li>
+      <li><a href="#comparison">Сравнение с 13 Pro</a></li>
+      <li><a href="reviews.html">Отзывы</a></li>
+      <li><a href="order.html">Заказать</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1>Форма заказа</h1>
+  <form action="submit.php" method="post">
+    Имя: <input type="text" name="name" size=”15” maxlength=”20” value="" ><br>
+    <br>
+Введите фамилию: <input type="text" name="surname" size=”20” maxlength=”25” value="" ><br>
+<br>
+Номер телефона: <select name="Номер" size="">
+    <option value="+7">+7</option>
+    <option value="+375">+375</option>
+    <input type="text" name="surname" size=”20” maxlength=”25” value="" ></select><br>
+    <br>
+    Email: <input type="text" name="name" size=”15” maxlength=”20” value="" ><br>
+    <br>
+    Объём памяти : <select name="гб" size="">
+    <option value="+7">16</option>
+    <option value="+375">32</option>
+    <option value="+7">64</option>
+    <option value="+375">128</option></select><br>
+    <br>
+ Выберите способ доставки: <input type="radio" name="skill" value="1"> курьером
+    <input type="radio" name="skill" value="2"> самовывоз
+    <br>
+    <br>
+Добавить к заказу : <br><input type="checkbox" name="имя флажка" value="значение">Чехол<br>
+<input type="checkbox" name="имя флажка" value="значение">MagSafe<br>
+<input type="checkbox" name="имя флажка" value="значение">AirPods<br>
+<br>
+Комментарий к заказу : <br>
+<textarea name="area" cols=”40” rows=”100” wrap=”off”></textarea>
+<br>
+<br>
+<input type="checkbox" name="имя флажка" value="значение">Принимаю условия сайта<br>
+<br> 
+<input type="button" name="подсказка" value="Заказать" onclick="alert(Закзать)"></button>
+
+    </select>
+  </form>
+</main>
+<footer>
+    <br>
+    <hr>
+    Все права защищены
+</footer>
+</body>
+</html>
